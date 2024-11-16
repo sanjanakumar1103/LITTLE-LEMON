@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;1,600&family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
+    <title>Little Lemon Mediterranean Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Images/Little-Lemon-logos/Asset 9@4x.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/Images/Little-Lemon-logos/Asset 16@4x.png" alt="Little Lemon Logo">
+            <div class="buttons">
+                <a href="register.html" class="register-button">Register</a><br>
+                <a href="login.html" class="login-button">Login</a>
+            </div>        
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="menu.html">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contact-form">
+            <h2>Contact Us & Reservation</h2>
+            <form action="/confirmation.html">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="party-size">Party Size:</label>
+                <input type="number" id="party-size" name="party-size" min="1" required>
+
+                <label for="message">Special Requests:</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+                
+                <button type="submit">Submit Reservation</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="/Images/Little-Lemon-logos/Asset 16@4x.png" alt="Little Lemon Logo">
+        </div>
+        <div class="copyright">
+            &copy; 2023 Little Lemon Mediterranean Hotel
+        </div>
+    </footer>
+</body>
+</html>

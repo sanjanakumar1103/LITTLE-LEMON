@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;1,600&family=Red+Hat+Display:wght@300&display=swap" rel="stylesheet">
+    <title>Little Lemon Mediterranean Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Images/Little-Lemon-logos/Asset 9@4x.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/Images/Little-Lemon-logos/Asset 16@4x.png" alt="Little Lemon Logo">
+            <div class="buttons">
+            <a href="register.html" class="register-button">Register</a>
+            <a href="login.html" class="login-button">Login</a>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="menu.html">Menu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>   <div class="register-form"> 
+            <form action="index.html">
+                <h2>Register</h2>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+            
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+            
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+            
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required><br><br>
+            
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name"><br><br>
+            
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+            
+                <label for="birthdate">Date of Birth:</label>
+                <input type="date" id="birthdate" name="birthdate"><br><br>
+            
+                <label for="agree-terms">
+                <div class="terms"><input type="checkbox" id="agree-terms" name="agree-terms" required>
+                    I agree to the terms and conditions</div>
+                </label><br><br>
+            
+                <button type="submit">Register</button>
+            </form>
+            </div>
+    </main>
+    
+    <footer>
+        <div class="footer-logo">
+            <img src="/Images/Little-Lemon-logos/Asset 16@4x.png" alt="Little Lemon Logo">
+        </div>
+        <div class="copyright">
+            &copy; 2023 Little Lemon Mediterranean Hotel
+        </div>
+    </footer>
+</body>
+</html>
